@@ -3,19 +3,42 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: linear-gradient(135deg, #f5f7fa 0%, #e4ecfb 100%);
+  --foreground: #334155;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  --glass-blur: 8px;
+  --accent-color: #3b82f6;
+  --accent-light: #dbeafe;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    --foreground: #e2e8f0;
+    --glass-bg: rgba(30, 41, 59, 0.7);
+    --glass-border: rgba(51, 65, 85, 0.5);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --accent-color: #60a5fa;
+    --accent-light: rgba(59, 130, 246, 0.2);
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
+}
+
+@layer components {
+  .glass-panel {
+    @apply backdrop-blur-md bg-white/70 dark:bg-slate-800/50 border border-white/50 dark:border-slate-700/50 shadow-lg;
+  }
+
+  .glass-button {
+    @apply backdrop-blur-sm bg-white/80 dark:bg-slate-700/50 border border-white/50 dark:border-slate-600/50 shadow-md 
+    hover:bg-white/90 dark:hover:bg-slate-600/50 transition-all duration-200;
+  }
 }
