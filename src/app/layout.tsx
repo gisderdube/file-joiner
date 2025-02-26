@@ -15,8 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "File Joiner",
   description: "Join multiple text files into one",
+  icons: {
+    icon: "/logo.png",
+  },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{

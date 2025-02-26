@@ -106,6 +106,9 @@ export default function Home() {
   return (
     <div className='min-h-screen p-4 sm:p-6 md:p-8 max-w-5xl mx-auto'>
       <header className='mb-10 text-center'>
+        <div className='flex justify-center mb-4'>
+          <img src='/logo.svg' alt='File Joiner Logo' className='h-24 w-24' />
+        </div>
         <h1 className='text-4xl sm:text-5xl font-bold mb-3 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent'>
           File Joiner
         </h1>

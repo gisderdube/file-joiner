@@ -1,0 +1,34 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <circle cx="60" cy="60" r="60" fill="url(#paint0_linear)" />
+  
+  <!-- Left file -->
+  <path d="M30 25H50C52.2091 25 54 26.7909 54 29V55C54 57.2091 52.2091 59 50 59H30C27.7909 59 26 57.2091 26 55V29C26 26.7909 27.7909 25 30 25Z" fill="white" />
+  <path d="M34 33H46" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  <path d="M34 39H46" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  <path d="M34 45H42" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Right file -->
+  <path d="M70 25H90C92.2091 25 94 26.7909 94 29V55C94 57.2091 92.2091 59 90 59H70C67.7909 59 66 57.2091 66 55V29C66 26.7909 67.7909 25 70 25Z" fill="white" />
+  <path d="M74 33H86" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  <path d="M74 39H86" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  <path d="M74 45H82" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Bottom joined file -->
+  <path d="M40 65H80C82.2091 65 84 66.7909 84 69V91C84 93.2091 82.2091 95 80 95H40C37.7909 95 36 93.2091 36 91V69C36 66.7909 37.7909 65 40 65Z" fill="white" />
+  <path d="M44 73H76" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  <path d="M44 79H76" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  <path d="M44 85H66" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Joining arrows -->
+  <path d="M40 59L50 65" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" />
+  <path d="M80 59L70 65" stroke="#3B82F6" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6" />
+      <stop offset="1" stop-color="#4F46E5" />
+    </linearGradient>
+  </defs>
+</svg> 
